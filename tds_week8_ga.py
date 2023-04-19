@@ -22,4 +22,4 @@ if st.button("Find"):
     largest = find_largest(a, b, c)
 
     # Display the result
-    st.write(f"The largest number among {a}, {b}, and {c} is {largest}.")
+    st.write(f"The largest number is {largest}.")
