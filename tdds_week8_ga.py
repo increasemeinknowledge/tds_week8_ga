@@ -16,7 +16,7 @@ def user_input_features():
     num2 = st.number_input("num2",min_value=-200000,max_value=200000,step=1)
     num3 = st.number_input("num3",min_value=-200000,max_value=200000,step=1)
     nums=[num1,num2,num3]
-return (nums)
+    return (nums)
 
 nums = user_input_features()
 output=max(nums)
