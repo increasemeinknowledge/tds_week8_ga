@@ -16,8 +16,10 @@ a = st.number_input("Enter the first number:")
 b = st.number_input("Enter the second number:")
 c = st.number_input("Enter the third number:")
 
-# Call the find_largest function to get the largest number
-largest = find_largest(a, b, c)
+# Create a button to trigger the find_largest function
+if st.button("Find"):
+    # Call the find_largest function to get the largest number
+    largest = find_largest(a, b, c)
 
-# Display the result
-st.write(f"The largest number among {a}, {b}, and {c} is {largest}.")
+    # Display the result
+    st.write(f"The largest number among {a}, {b}, and {c} is {largest}.")
